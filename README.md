@@ -4,7 +4,8 @@
 style="position: relative; bottom: 5px;width:0.625in" />
 
 <a href="https://hassothea.github.io/">HAS Sothea, PhD</a>
-2025-08-09
+
+Aug 9, 2025
 
 - [👋 **Introduction**](#-introduction)
   - [📋 **Course Overview**](#-course-overview)
@@ -128,15 +129,7 @@ apply them to structured datasets with confidence.
 
 ------------------------------------------------------------------------
 
-**Note**: The following table of contents will be progressively updated
-according to the course advancement.
-
-| Topic | Lab | Solution | Remark |
-|:---|:--:|:--:|:--:|
-| … | … | … | … |
-| <a
-href="https://github.com/hassothea/Machine_Learning_AUPP/Slides/Linear_Regression.html"
-target="_blank">Linear Regression</a> | Lab1 | Solution1 | …Loading |
+> For the course progress, visit our webpage: [ITM 390 004: Machine Learning](https://github.com/hassothea/Machine_Learning_AUPP)
 
 # 📄 **Midterms, Exams and Projects**
 
@@ -249,4 +242,5 @@ Learning**:
 - <a href="https://mlr3.mlr-org.com/" target="_blank">MLR3 for R</a>
 
 ------------------------------------------------------------------------
+
 
