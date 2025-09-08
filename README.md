@@ -1,6 +1,8 @@
-# **ITM 390 004: Machine Learning <img
-src="https://github.com/hassothea/Data_Analysis_AUPP/blob/main/Slides/img/AUPP_Logo.png?raw=true?raw=true"
-style="position: relative; bottom: 5px;width:0.55556in" />**
+# **ITM 390 004: Machine Learning**
+
+<img src="https://github.com/hassothea/Data_Analysis_AUPP/blob/main/Slides/img/AUPP_Logo.png?raw=true?raw=true"
+style="position: relative; bottom: 5px;width:0.625in" />
+
 <a href="https://hassothea.github.io/">HAS Sothea, PhD</a>
 2025-08-09
 
@@ -247,3 +249,4 @@ Learning**:
 - <a href="https://mlr3.mlr-org.com/" target="_blank">MLR3 for R</a>
 
 ------------------------------------------------------------------------
+
