@@ -129,7 +129,7 @@ apply them to structured datasets with confidence.
 
 ------------------------------------------------------------------------
 
-> For the course progress, visit our webpage: [ITM 390 004: Machine Learning](https://github.com/hassothea/Machine_Learning_AUPP)
+> For the course progress, visit our webpage: [ITM 390 004: Machine Learning](https://hassothea.github.io/Machine_Learning_AUPP/)
 
 # 📄 **Midterms, Exams and Projects**
 
@@ -242,5 +242,6 @@ Learning**:
 - <a href="https://mlr3.mlr-org.com/" target="_blank">MLR3 for R</a>
 
 ------------------------------------------------------------------------
+
 
 
