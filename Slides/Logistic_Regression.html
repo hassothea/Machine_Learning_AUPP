@@ -1093,7 +1093,7 @@ if (outputEl) {{
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>For <span class="math inline">\(\color{blue}{(\beta_0,\beta_1,\beta_2)=(1, 1, -2)}\)</span>, compute <span class="math inline">\(p(\color{blue}{1}|\text{x})\)</span> for the data:</li>
+<li>For <span class="math inline">\(\color{blue}{(\beta_0,\beta_1,\beta_2)=(-1, -1, 2)}\)</span>, compute <span class="math inline">\(p(\color{blue}{1}|\text{x})\)</span> for the data:</li>
 </ul>
 <div id="50b61336" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-display">
@@ -1159,19 +1159,19 @@ if (outputEl) {{
 </div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li class="fragment"><p>Compute relative distance <span class="math inline">\(z_i=\color{blue}{\beta_0}+\text{x}_i^T\color{blue}{\vec{\beta}}\)</span>, then <span class="math inline">\(p(1|\text{x}_i)\)</span> <span class="math display">\[\begin{align*}z_1&amp;=1+1(2.489186)-2(-0.779048)\\
-&amp;=5.047282&gt;0\\
-\Rightarrow p(1|\text{x}_1)&amp;=\sigma(z_1)=1/(1+e^{-5.047282})=\color{blue}{0.9936}.\\
+<li class="fragment"><p>Compute relative distance <span class="math inline">\(z_i=\color{blue}{\beta_0}+\text{x}_i^T\color{blue}{\vec{\beta}}\)</span>, then <span class="math inline">\(p(1|\text{x}_i)\)</span> <span class="math display">\[\begin{align*}z_1&amp;=-1-1(2.489186)+2(-0.779048)\\
+&amp;=-5.047282&gt;0\\
+\Rightarrow p(1|\text{x}_1)&amp;=\sigma(z_1)=1/(1+e^{-(-5.047282)})=\color{red}{0.0064}.\\
 \\
-z_2&amp;=1+1(-2.572868)-2(-1.086146)\\
-&amp;=0.599424&gt;0\\
-\Rightarrow p(1|\text{x}_2)&amp;=\sigma(z_2)=1/(1+e^{-0.599424})=\color{blue}{0.6455}.\\
+z_2&amp;=-1-1(-2.572868)+2(-1.086146)\\
+&amp;=-0.599424&gt;0\\
+\Rightarrow p(1|\text{x}_2)&amp;=\sigma(z_2)=1/(1+e^{-(-0.599424)})=\color{red}{0.3545}.\\
 \\
-z_3&amp;=1+1(2.767143)-2(2.432104)\\
-&amp;=-1.097065 &lt; 0\\
-\Rightarrow p(1|\text{x}_3)&amp;=\sigma(z_3)=1/(1+e^{-(-1.097065)})=\color{red}{0.2503}.\end{align*}\]</span></p></li>
-<li class="fragment"><p><strong>Interpretation</strong>: <span class="math inline">\(\text{x}_1,\text{x}_2\)</span> are located above the line <span class="math inline">\((B):1+x_1-2x_2\)</span> as <span class="math inline">\(z_1,z_2&gt;0\)</span> and are predicted to be in class <span class="math inline">\(\color{blue}{1}\)</span>. On the other hand, <span class="math inline">\(\text{x}_3\)</span> is located below the line (<span class="math inline">\(z_3&lt;0\)</span>) and is predicted to be in class <span class="math inline">\(\color{red}{0}\)</span>.</p></li>
-<li class="fragment"><p><span class="light-red"><strong>Q4:</strong></span> Now,how do we find the best key parameter <span class="math inline">\(\color{blue}{\beta_0,\dots,\beta_d}\)</span>?</p></li>
+z_3&amp;=-1-1(2.767143)+2(2.432104)\\
+&amp;=1.097065 &lt; 0\\
+\Rightarrow p(1|\text{x}_3)&amp;=\sigma(z_3)=1/(1+e^{-1.097065})=\color{blue}{0.75}.\end{align*}\]</span></p></li>
+<li class="fragment"><p><strong>Interpretation</strong>: <span class="math inline">\(\text{x}_1,\text{x}_2\)</span> are located below the line <span class="math inline">\((B):-1-x_1+2x_2\)</span> as <span class="math inline">\(z_1,z_2&gt;0\)</span> and are predicted to be in class <span class="math inline">\(\color{red}{0}\)</span>. On the other hand, <span class="math inline">\(\text{x}_3\)</span> is located above the line (<span class="math inline">\(z_3&lt;0\)</span>) and is predicted to be in class <span class="math inline">\(\color{blue}{1}\)</span>.</p></li>
+<li class="fragment"><p><span class="light-red"><strong>Q4:</strong></span> Now, how do we find the best key parameter <span class="math inline">\(\color{blue}{\beta_0,\dots,\beta_d}\)</span>?</p></li>
 <li class="fragment"><p>We will build a criterion just like <span class="light-red"><strong>RSS</strong></span> in linear regression.</p></li>
 </ul>
 </div></div>
